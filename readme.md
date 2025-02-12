@@ -18,7 +18,7 @@ following youtube tutorial: https://www.youtube.com/watch?v=syRi9p9aWYA
 
 This section describes how to install the plugin and get it working.
 
-1. Upload the plugin files to the `/wp-content/plugins/awesome` directory
+1. Upload the plugin files to the `/wp-content/plugins/wp-plugin-block-template` directory
 2. Activate the plugin through the 'Plugins' screen in WordPress
 
 == Frequently Asked Questions ==
