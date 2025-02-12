@@ -1,4 +1,4 @@
-=== Awesome ===
+=== Chris Luhring's Second WP Pluggin - using Block Template ===
 Contributors:      The WordPress Contributors
 Tags:              block
 Tested up to:      6.7
@@ -10,20 +10,16 @@ Example block scaffolded with Create Block tool.
 
 == Description ==
 
-This is the long description. No limit, and you can use Markdown (as well as in the following sections).
-
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+This block plugin was created using terminal command:
+'npx @wordpress/create-block@latest awesome --variant dynamic --target-dir .'
+following youtube tutorial: https://www.youtube.com/watch?v=syRi9p9aWYA 
 
 == Installation ==
 
 This section describes how to install the plugin and get it working.
 
-e.g.
-
-1. Upload the plugin files to the `/wp-content/plugins/awesome` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
-
+1. Upload the plugin files to the `/wp-content/plugins/awesome` directory
+2. Activate the plugin through the 'Plugins' screen in WordPress
 
 == Frequently Asked Questions ==
 
@@ -31,25 +27,13 @@ e.g.
 
 An answer to that question.
 
-= What about foo bar? =
-
-Answer to foo bar dilemma.
-
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
+1. [This screen shot shows WordPress site after the block plugin is saved in WP admin](screenshot-1.png)
+
+2. [This screen shot shows WordPress admin site - which now displays block plugin in block search bar](screenshot-2)
 
 == Changelog ==
 
 = 0.1.0 =
 * Release
-
-== Arbitrary section ==
-
-You may provide arbitrary sections, in the same format as the ones above. This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation." Arbitrary sections will be shown below the built-in sections outlined above.
