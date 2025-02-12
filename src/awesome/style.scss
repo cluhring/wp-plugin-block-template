@@ -1,0 +1,38 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-awesome {
+	background-color: #21759b;
+	color: #fff;
+	padding: 2px;
+}
+
+#supportroll {
+	border: 2px solid #60047A;
+	position: fixed;
+	background-color: #00FFFF;
+	color: #484848;
+	padding: 20px;
+	right: 0px;
+	bottom: 50px;
+	width: 300px;
+	transform: translate(100%, 0);
+	animation-delay: 0s;
+	animation-play-state: running;
+	animation-iteration-count: 2;
+	animation-duration: 10s;
+	animation-name: supportanimation;
+}
+
+@keyframes supportanimation {
+	from {
+	transform: translate(100%, 0);
+	}
+	to {
+	transform: translate(0%, 0);
+	}
+}
