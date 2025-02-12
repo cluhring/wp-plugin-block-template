@@ -29,9 +29,11 @@ An answer to that question.
 
 == Screenshots ==
 
-1. ![This screen shot shows WordPress admin site - which now displays block plugin in block search bar](assets/screenshot-2.png)
+1. This screenshot shows WordPress admin site - which now displays block plugin in block search bar
+   ![](assets/screenshot-2.png)
   
-2. ![This screen shot shows WordPress site after the block plugin is saved in WP admin](assets/screenshot-1.png)
+3. This screenshot shows WordPress site after the block plugin is saved in WP admin
+   ![](assets/screenshot-1.png)
 
 == Changelog ==
 
